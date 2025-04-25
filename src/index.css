@@ -1,0 +1,125 @@
+/*============= CUSTOM =============*/
+:root {
+  --hero-bg-grad: linear-gradient(#08003ab3, #08003ab3);
+  --white-col: #ffffff;
+  --black-col: #000000;
+
+  --primary-col: #000f38;
+  --secondary-col: #212ea0;
+  --text-col: #676767;
+
+  --section-padding: 85px;
+
+  --main-font: "Outfit", sans-serif;
+}
+
+/*============= BASE =============*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+img,
+span,
+button {
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+input,
+button,
+textarea {
+  background: none;
+  border: none;
+  outline: none;
+  font: inherit;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+ion-icon {
+  pointer-events: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--white-col);
+  line-height: 1.4;
+  font-family: var(--main-font);
+  overflow-x: hidden;
+}
+
+/*============= REUSABLE CLASSES =============*/
+.container {
+  padding-inline: 16px;
+}
+
+.section {
+  padding-block: var(--section-padding);
+}
+
+.has-bg-image {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+/*============= MEDIA QUERY =============*/
+@media (min-width: 560px) {
+  .container {
+    max-width: 540px;
+    width: 100%;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 960px) {
+  .container {
+    max-width: 850px;
+  }
+}
+
+@media (min-width: 1270px) {
+  .container {
+    max-width: 1130px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1200px;
+  }
+}

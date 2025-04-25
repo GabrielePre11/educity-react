@@ -1,0 +1,23 @@
+.footer {
+    background-color: var(--secondary-col);
+    padding-block: 20px;
+    color: var(--white-col);
+}
+
+.footer .container {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.grid-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 10px;
+    gap: 15px;
+}
+
+.footer-link:is(:hover, :focus) {
+    text-decoration: underline;
+}

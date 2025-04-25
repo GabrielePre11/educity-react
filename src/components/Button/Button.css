@@ -1,0 +1,15 @@
+.btn {
+    margin-block-start: 15px;
+    width: max-content;
+    padding: 1rem 3rem;
+    border-radius: 100px;
+}
+
+.btn.primary {
+    background-color: var(--white-col);
+}
+
+.btn.secondary {
+    background-color: var(--secondary-col);
+    color: var(--white-col);
+}

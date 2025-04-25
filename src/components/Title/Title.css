@@ -1,0 +1,17 @@
+.section-heading {
+    text-align: center;
+    margin-block-end: var(--section-padding);
+}
+
+.section-subtitle {
+    font-size: 0.938rem;
+    font-weight: 600;
+    color: var(--secondary-col);
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-col);
+}

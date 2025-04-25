@@ -1,0 +1,70 @@
+.about .section-heading {
+    text-align: initial;
+    margin-block-end: 50px;
+}
+
+.about .container {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.about-text {
+    color: var(--text-col);
+    font-size: 1rem;
+    padding-block-end: 15px;
+}
+
+.about-image {
+    position: relative;
+    width: 280px;
+    place-self: center;
+}
+
+.about-img {
+    border-radius: 18px;
+}
+
+.play-icon,
+.pause-icon {
+    position: absolute;
+    font-size: 5rem;
+    color: var(--secondary-col);
+    background-color: var(--white-col);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    animation: pulse 2s infinite;
+    border-radius: 50%;
+}
+
+.about-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    visibility: hidden;
+}
+
+.about-video .about-clip {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.about-video.play {
+    visibility: visible;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+}

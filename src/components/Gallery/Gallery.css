@@ -1,0 +1,25 @@
+.gallery .grid-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.gallery .container {
+    display: grid;
+    place-items: center;
+    gap: 3rem;
+}
+
+.gallery-pic {
+    width: 150px;
+    border-radius: 18px;
+    transition: 0.5s ease;
+}
+
+.gallery-pic:is(:hover, :focus) {
+    transform: translateY(-6px)
+}

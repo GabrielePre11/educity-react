@@ -1,0 +1,266 @@
+/*============= MEDIA QUERY =============*/
+@media (min-width: 560px) {
+    .programs .container .grid-list {
+        grid-template-columns: 1fr;
+    }
+
+    .programs .container .program-card {
+        width: 380px;
+    }
+
+    .about .container .about-image {
+        width: 370px;
+    }
+
+    .about .container .play-icon {
+        width: 80px;
+    }
+
+    .gallery .container .gallery-pic {
+        width: 200px;
+    }
+
+    .testimonials .container {
+        display: grid;
+        place-content: center;
+        position: relative;
+    }
+
+    .testimonials .container .arrow {
+        top: 110%;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero .container .hero-ttl {
+        font-size: 2.5rem;
+    }
+
+    .hero .container .hero-desc {
+        font-size: 1.1rem;
+    }
+
+    .programs .container .grid-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .programs .container .program-card {
+        width: 200px;
+    }
+
+    .section-heading .section-subtitle {
+        font-size: 1rem;
+    }
+
+    .section-heading .section-title {
+        font-size: 2.3rem;
+    }
+
+    .about .container .about-image {
+        width: 500px;
+    }
+
+    .about .container .play-icon {
+        font-size: 5rem;
+    }
+
+    .about .container {
+        gap: 2.2rem;
+    }
+
+    .gallery .container .gallery-pic {
+        width: 280px;
+    }
+
+    .testimonials .container .slide {
+        padding: 25px;
+    }
+}
+
+@media (min-width: 960px) {
+    .hero .container .hero-ttl {
+        font-size: 3rem;
+    }
+
+    .hero .container .hero-desc {
+        font-size: 1.1rem;
+        max-width: 80%;
+        margin-inline: auto;
+    }
+
+    .programs .container .grid-list {
+        gap: 20px;
+    }
+
+    .programs .container .program-card {
+        width: 260px;
+    }
+
+    .about .container {
+        grid-template-columns: 0.8fr 1fr;
+        align-items: center;
+    }
+
+    .about .container .about-image {
+        width: 350px;
+    }
+
+    .about .container .play-icon {
+        width: 80px;
+    }
+
+    .about .container .about-content {
+        order: 1;
+        margin-inline-start: 10px;
+    }
+
+    .gallery .container .grid-list {
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+    }
+
+    .gallery .container .gallery-pic {
+        width: 190px;
+    }
+
+    .contact .container .contact-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .contact .container {
+        grid-template-columns: 0.9fr 0.8fr;
+    }
+
+    .contact .container .contact-form .contact-input {
+        margin-block-start: 2px;
+    }
+}
+
+@media (min-width: 1270px) {
+    .hero .container .hero-ttl {
+        font-size: 3.5rem;
+    }
+
+    .hero .container .hero-desc {
+        font-size: 1.2rem;
+        max-width: 80%;
+        margin-inline: auto;
+    }
+
+    .programs .container .grid-list {
+        gap: 20px;
+    }
+
+    .programs .container .program-card {
+        width: 350px;
+    }
+
+    .about {
+        scroll-margin-top: 30px;
+    }
+
+    .about .container .about-image {
+        width: 400px;
+    }
+
+    .about .container .play-icon {
+        font-size: 5rem;
+    }
+
+    .about .container .about-text {
+        padding-block-end: 10px;
+        font-size: 1.1rem;
+    }
+
+    .about .container .section-heading {
+        margin-block-end: 15px;
+    }
+
+    .gallery .container .gallery-pic {
+        width: 250px;
+    }
+
+    .contact .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact .container .contact-content {
+        gap: 2rem;
+    }
+
+    .contact .container .contact-form {
+        padding: 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    .section-heading .section-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .section-heading .section-title {
+        font-size: 2.7rem;
+    }
+
+    .hero .container .hero-ttl {
+        font-size: 4.5rem;
+    }
+
+    .hero .container .hero-desc {
+        font-size: 1.3rem;
+        max-width: 80%;
+        margin-inline: auto;
+    }
+
+    .programs .container .grid-list {
+        gap: 30px;
+    }
+
+    .programs .container .program-card {
+        width: 400px;
+    }
+
+    .about .container .about-image {
+        width: 480px;
+    }
+
+    .about .container .play-icon {
+        font-size: 5rem;
+    }
+
+    .about .container .about-text {
+        padding-block-end: 10px;
+        font-size: 1.1rem;
+    }
+
+    .about .container .section-heading {
+        margin-block-end: 30px;
+    }
+
+    .gallery .container .gallery-pic {
+        width: 280px;
+    }
+
+    .contact .contact-title {
+        font-size: 2rem;
+    }
+
+    .contact .contact-desc {
+        font-size: 1.1rem;
+    }
+
+    .contact .msg-icon {
+        width: 45px;
+    }
+
+    .contact .contact-icon {
+        width: 30px;
+    }
+
+    .contact .contact-link {
+        font-size: 1.2rem;
+    }
+}

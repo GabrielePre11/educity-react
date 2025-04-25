@@ -1,0 +1,46 @@
+.programs {
+    padding-block-start: 0px;
+    scroll-margin-block-start: 90px;
+}
+
+.programs .grid-list {
+    display: grid;
+    grid-template-columns: 200px;
+}
+
+.program-card {
+    position: relative;
+    margin-block-end: 2.5rem;
+    cursor: pointer;
+    width: 280px;
+    place-self: center;
+}
+
+.program-image,
+.caption {
+    border-radius: 18px;
+}
+
+.caption {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    text-align: center;
+    place-content: center;
+    color: var(--white-col);
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7));
+    opacity: 0;
+    visibility: visible;
+    transition: 0.3s ease;
+}
+
+.program-icon {
+    width: 60px;
+    margin-block-end: 10px;
+    margin-inline: auto;
+}
+
+:is(.program-card):hover .caption {
+    opacity: 1;
+    visibility: visible;
+}
