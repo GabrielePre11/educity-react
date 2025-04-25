@@ -1,3 +1,5 @@
+Educity è una replica di un sito educativo sviluppata con React e Vite come mio primo progetto, il che mi ha permesso di mettere in pratica i concetti di base di React, esplorare l'uso degli hooks principali (useState, useEffect e useRef) e di esplorare altre funzionalità.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
